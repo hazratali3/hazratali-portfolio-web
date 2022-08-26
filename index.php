@@ -1,5 +1,5 @@
 <?php session_start();
-require 'config.php';
+
 
 ?>
 
@@ -25,8 +25,6 @@ require 'config.php';
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- TM CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -69,7 +67,7 @@ require 'config.php';
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
       <h1>Hazrat Ali</h1>
-      <p>I'm <span class="typed" data-typed-items="Full Stack Web Developer, Designer, Freelancer"></span></p>
+      <p>I'm <span class="typed" data-typed-items="Web Designer, Freelancer, Web Developer"></span></p>
     </div>
   </section><!-- End Hero -->
 
@@ -349,7 +347,7 @@ Having programming skills using PHP, JavaScript as well as a
     </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" style="margin-left: 70px;margin-bottom: 45px;">
-            <form action="snd_msg.php" method="POST" role="form" style="margin-top: 15px;">
+            <form action="https://formspree.io/f/{form_id}" method="POST" role="form" style="margin-top: 15px;">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name"><b>Your Name</b></label>
@@ -362,7 +360,7 @@ Having programming skills using PHP, JavaScript as well as a
               </div>
               <div class="form-group">
                 <label for="name"><b>Subject</b></label>
-                <input type="text" class="form-control" style='border-radius:10px;' name="subject" id="subject" required>
+                <input type="text" class="form-control" style='border-radius:10px;' name="subject" id="subject">
               </div>
               <div class="form-group">
                 <label for="name"> <b>Message</b></label>
@@ -409,7 +407,6 @@ Having programming skills using PHP, JavaScript as well as a
  btn.addEventListener('click', function(){
      let name = document.getElementById('name').value;
      let email = document.getElementById('email').value;
-     let subject = document.getElementById('subject').value;
      let message = document.getElementById('message').value;
      if (name == ""){
          swal ("", "Name field is missing", "error");
@@ -417,32 +414,10 @@ Having programming skills using PHP, JavaScript as well as a
      else if (email == ""){
          swal ("", "Email field is missing", "error");   
      }
-     else if  (subject == ""){
-        swal ("", "Subject is missing", "error");   
-     }
-     else if (message == ""){
+      else if (message == ""){
        swal ("", "Please enter any message", "warning");   
      }
 })
 </script>
-
-<?php
-     if(isset($_SESSION['status']) && $_SESSION['status'] != '') 
-{
-    ?>
-    <script>
-        swal({
-          title: "<?php echo $_SESSION['status']   ?>",
-          icon: "<?php echo $_SESSION['status_code']   ?>",
-          text: "<?php echo $_SESSION['text'] ?> ",
-          button: "DONE",
-        }); 
-    </script>
-
-    <?php
-    unset($_SESSION['status']);
-    }
-    ?>
-
 </body>
 </html>
