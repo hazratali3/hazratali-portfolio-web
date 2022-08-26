@@ -3,4 +3,5 @@
 
 # !important 
 
-.vs/
+*.vs
+*.config.php

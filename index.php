@@ -10,7 +10,7 @@ require 'config.php';
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Hazrat Ali - Full Stack Web Developer</title>
+  <title>Hazrat Ali - Web Designer</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -48,7 +48,7 @@ require 'config.php';
         <h1 class="text-light"><a href="index.html">Hazrat Ali</a></h1>
         <div class="social-links mt-3 text-center">
          
-          <a href="www.facebook.com/ali4samo/" class="facebook"><i class="bx bxl-facebook"></i></a>                
+          <a href="https://www.twitter.com/alicodeui/" class="facebook"><i class="bx bxl-twitter"></i></a>                
         <a href="https://www.linkedin.com/in/hazrat-ali-a8608721a/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         </div>
       </div>
@@ -80,7 +80,7 @@ require 'config.php';
       <div class="container">
 
         <div class="section-title">
-         <center> <h2><b>About</b></h2></center>
+          <h1 class="text-center"><b>About</b></h1>
           <p>Gained hands-on expertise in Bootstrap and similar back-end PHP as well as 
 		  front end presentation frameworks web applications. Prefer long term web 
 		  application for clients.</p>
@@ -121,7 +121,6 @@ require 'config.php';
             </p>
           </div>
         </div>
-
       </div>
     </section><!-- End About Section -->
 
@@ -131,7 +130,7 @@ require 'config.php';
       <div class="container">
 
         <div class="section-title">
-          <center><h1><b>Skills</b></h1></center>
+          <h1 class="text-center"><b>Skills</b></h1>
           <p>Passionate and Providing high-end web development services.
 I have more than 4 years of experience in Web Development.
 Having programming skills using PHP, JavaScript as well as a
@@ -145,55 +144,51 @@ Having programming skills using PHP, JavaScript as well as a
           <div class="col-lg-6" data-aos="fade-up">
 
             <div class="progress">
-              <span class="skill">HTML <i class="val">100%</i></span>
+              <span class="skill">HTML <i class="val">A+</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="90"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">CSS <i class="val">90%</i></span>
+              <span class="skill">CSS <i class="val">A+</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">JavaScript <i class="val">90%</i></span>
+              <span class="skill">JavaScript <i class="val">A</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="75"></div>
               </div>
             </div>
-
           </div>
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
 
             <div class="progress">
-              <span class="skill">PHP <i class="val">90%</i></span>
+              <span class="skill">PHP <i class="val">A</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="75"></div>
               </div>
             </div>
 
             <div class="progress">
-              <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+              <span class="skill">WordPress/CMS <i class="val">A+</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="90"></div>
               </div>
             </div>
 
             <div class="progress">
               <span class="skill">Photoshop <i class="val">90%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="90"></div>
               </div>
             </div>
-
           </div>
-
         </div>
-
       </div>
     </section><!-- End Skills Section -->
 	
@@ -205,7 +200,7 @@ Having programming skills using PHP, JavaScript as well as a
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <center><h1><b>Education</b></h1></center>
+          <h1 class="text-center"><b>Education</b></h1>
         </div>
 
         <div class="row">
@@ -214,16 +209,14 @@ Having programming skills using PHP, JavaScript as well as a
             <div class="resume-item pb-0">
               <h4>Matric</h4>
 			   <h5>2014 - 2016</h5>
-
-              <ul>
+            <ul>
                 <li>Main subjects: <b>Physics, Maths and Computer.</li></b>
 				<li> <b>College Name:</b><em> Islamabad Model College For Boys I-8/3, Islamabad</em> </li>
                 <li> <b>Board: </b>Federal Board Of Intermediate and Secondary Education (FBISE) H-8/4, Islamabad </li>
                 <li>Secured 58% marks</li>
               </ul>
             </div>
-
-            <div class="resume-item">
+          <div class="resume-item">
               <h4>Intermediate</h4>
               <h5>2017 - 2019</h5>
 			  <ul>
@@ -232,8 +225,7 @@ Having programming skills using PHP, JavaScript as well as a
                 <li><b>Board: </b> Board Of Intermediate and Secondary Education (BISE) Rawalpindi</li>
                 <li>Secured 60% marks</li>
               </ul>
-			  
-            </div>
+			    </div>
 			<div class="resume-item">
               <h4>Bachelor In Information Technology</h4>
               <h5>2020 - Present</h5>
@@ -241,12 +233,9 @@ Having programming skills using PHP, JavaScript as well as a
                 <li>BS(IT)</li>
 				<li> <b>CGPA till Fourth Semester: </b> 2.7 </li>
                 <li><b>University: </b> Quaid e Azam University, Islamabad</li>
-                
               </ul>
-			  
-            </div>
-           
           </div>
+        </div>
           <div class="col-lg-6">
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-h">
@@ -265,12 +254,12 @@ Having programming skills using PHP, JavaScript as well as a
     </section><!-- End Resume Section 
 
    
-    <!-- ======= Services Section ======= -->
+     ======= Services Section ======= -->
     <section id="services" class="services">
       <div class="container">
 
         <div class="section-title">
-          <center><h1><b>Services</b></h1></center>
+          <h1 class="text-center"><b>Services</b></h1>
 			<p>If time is your most valuable asset and you want to focus on your core
 		  businesses, Just do it and allow me the services which I really enjoy while doing. 
 		  <b> The Services include:</b>
@@ -327,7 +316,7 @@ Having programming skills using PHP, JavaScript as well as a
       <div class="container">
 
         <div class="section-title">
-          <center><h1><b>Contact</b></h1></center>
+          <h1 class="text-center"><b>Contact</b></h1>
           <p>Have some suggestions? Experiencing some technical issues?
 		Or perhaps you just want to share your positive experience. Just fill 
 		in the form below, I would love to hear your suggestions. </p>
@@ -340,7 +329,7 @@ Having programming skills using PHP, JavaScript as well as a
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>Street No 07, Bilal Town, Islamabad</p>
+                <p>Bilal Town, Islamabad</p>
               </div>
 <br> <br>
               <div class="email">
@@ -408,9 +397,6 @@ Having programming skills using PHP, JavaScript as well as a
   <!-- V JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
